@@ -185,7 +185,7 @@ function reset()
   m=120
 }
 function spawnEnemies(){
-  if(frameCount%400===0){
+  if(frameCount%200===0){
   enemy=createSprite(width,height-136,20,20)
   enemy.velocityX=-1
   enemy.addImage(enemyImg)
